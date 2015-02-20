@@ -89,6 +89,7 @@ void nsh_initialize(void)
 {
   /* Mount the /etc filesystem */
 
+	/* Hi There*/
   (void)nsh_romfsetc();
 
   /* Perform architecture-specific initialization (if available) */
